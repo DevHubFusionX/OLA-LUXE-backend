@@ -2,6 +2,7 @@ services:
   - type: web
     name: olaluxe-backend
     env: node
+    rootDir: Backend
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
