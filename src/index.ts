@@ -19,7 +19,7 @@ const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:3000';
 
 // ── Middleware ────────────────────────────────────────────────
 app.use(cors({
-  origin: [FRONTEND_URL, 'http://localhost:3000', 'http://localhost:3001', 'http://192.168.198.128:3000'],
+  origin: [FRONTEND_URL, 'http://localhost:3000', 'http://localhost:3001', 'https://ola-luxe.vercel.app'],
   credentials: true,
 }));
 app.use(express.json());
